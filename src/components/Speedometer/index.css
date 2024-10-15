@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  background-color: #07080c;
+  font-family: 'Roboto';
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  margin-top: 50px;
+  color: #ffffff;
+}
+.speedometer-image {
+  width: 700px;
+}
+.head{
+  color: #ffffff;
+  font-size: 20px;
+}
+.paragraph{
+  color: #94a3b8 ;
+  font-size: 15px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.accelerate{
+  color: #ffffff;
+  background-color:  #0b69ff;
+  border: none;
+  margin-right: 20px;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.applybreak{
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 10px;
+  cursor: pointer;
+}
